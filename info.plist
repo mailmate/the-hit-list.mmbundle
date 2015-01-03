@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>gbefgra.tehfg@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Reza Jelveh</string>
+	<key>description</key>
+	<string>Integration with task manager The Hit List.</string>
+	<key>name</key>
+	<string>The Hit List</string>
+	<key>uuid</key>
+	<string>91B44CFC-5A81-11E3-B386-1FC4DAEFE69E</string>
+</dict>
+</plist>

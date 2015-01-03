@@ -1,0 +1,22 @@
+#!/usr/bin/osascript
+on run argv
+	set theFilename to item 1 of argv
+	set theLines to every paragraph of (do shell script ("cat " & theFilename))
+	set theName to item 1 of theLines
+	try
+		set Applescript's text item delimiters to "\n"
+		set theNote to items 2 thru end of theLines as string
+	on error
+		set theNote to ""
+	end try
+
+	tell application "The Hit List"
+		activate	
+		tell inbox to make new task with properties {timing task:theName, notes:theNote}
+      -- tell application "System Events"
+      --     keystroke "1" using {command down, option down}
+      --     key code 125 using {option down}
+      -- end tell
+	end tell
+
+end run
